@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import DatePicker from 'react-date-picker';
+import CSVDownload from 'react-json-to-csv';
 
 import './App.css';
 import { db } from './Firebase';
@@ -88,7 +89,8 @@ class App extends Component {
               value={this.state.endDate}
             />
           </div>
-          <button className="export" onClick={this.getReports}> export</button>
+          <button className="export" onClick={this.getReports}>Read Data From Firebase</button>
+          <CSVDownload data = {this.state.rowData} />
         </header>
       </div>
     );
