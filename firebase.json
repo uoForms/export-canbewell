@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "export-canbewell-prod",
+    "site": "export-canbewell-dev",
     "public": "build",
     "ignore": [
       "firebase.json",

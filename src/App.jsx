@@ -73,7 +73,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Note: this site is for the test data
         </a>
 
           <div>
